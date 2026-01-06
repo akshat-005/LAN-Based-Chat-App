@@ -6,6 +6,7 @@ A complete, production-ready terminal chat application built in Java.
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [System Architecture](#system-architecture)
+- [GUI Mode](#gui-mode)
 - [Prerequisites](#prerequisites)
 - [Compilation Instructions](#compilation-instructions)
 - [Running the Application](#running-the-application)
@@ -17,6 +18,10 @@ A complete, production-ready terminal chat application built in Java.
 ## 🎯 Project Overview
 
 This is a LAN-based multi-user terminal chat application that allows multiple users on the same local network to communicate in real-time. The system uses a client-server architecture with TCP sockets for reliable communication.
+
+**Now with dual interface modes:**
+- 🖥️ **GUI Mode** - Modern Swing-based graphical interface
+- ⌨️ **Terminal Mode** - Colorful ANSI terminal interface
 
 **Key Components:**
 - **Chat Server**: Accepts multiple client connections and broadcasts messages
